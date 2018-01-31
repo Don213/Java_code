@@ -11,11 +11,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="JohnsonDaniel_Lab01_2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JohnsonDaniel_Lab01_2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="JohnsonDaniel_Lab01_2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JohnsonDaniel_Lab01_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+>>>>>>> 31e788c7d8f8999aecc7705a503e2357a591a2c1
               <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
@@ -85,12 +93,18 @@
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> 31e788c7d8f8999aecc7705a503e2357a591a2c1
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JohnsonDaniel_Lab01" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,15 +239,24 @@
       <option name="presentableId" value="Default" />
       <updated>1516972884772</updated>
       <workItem from="1516972888818" duration="966000" />
+<<<<<<< HEAD
       <workItem from="1516974078952" duration="96000" />
+=======
+      <workItem from="1516974120514" duration="7000" />
+      <workItem from="1516993695046" duration="34000" />
+>>>>>>> 31e788c7d8f8999aecc7705a503e2357a591a2c1
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1062000" />
+=======
+    <option name="totallyTimeSpent" value="1007000" />
+>>>>>>> 31e788c7d8f8999aecc7705a503e2357a591a2c1
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -287,7 +310,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JohnsonDaniel_Lab01_2.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="306">
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JohnsonDaniel_Lab01_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+>>>>>>> 31e788c7d8f8999aecc7705a503e2357a591a2c1
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>

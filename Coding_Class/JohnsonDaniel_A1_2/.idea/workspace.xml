@@ -15,8 +15,13 @@
       <file leaf-file-name="Binary_To_Decimal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="594">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+=======
             <state relative-caret-position="289">
               <caret line="17" column="152" lean-forward="false" selection-start-line="17" selection-start-column="152" selection-end-line="17" selection-end-column="152" />
+>>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
               <folding />
             </state>
           </provider>
@@ -70,8 +75,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="Scope" />
+=======
+      <pane id="Scope" />
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+=======
+      <pane id="Scratches" />
+>>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+>>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,8 +99,14 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
       <pane id="PackagesPane" />
+>>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,13 +251,28 @@
       <workItem from="1517341459989" duration="664000" />
       <workItem from="1517379418830" duration="394000" />
       <workItem from="1517379843501" duration="631000" />
+<<<<<<< HEAD
+      <workItem from="1517473411936" duration="16000" />
+=======
       <workItem from="1517436959421" duration="4626000" />
+<<<<<<< HEAD
       <workItem from="1517464876188" duration="30000" />
+=======
+>>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
+>>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="6521000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="1881000" />
+=======
+    <option name="totallyTimeSpent" value="6491000" />
+>>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
+>>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -316,6 +353,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -324,8 +362,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
       <provider selected="true" editor-type-id="text-editor">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="594">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+=======
+>>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
         <state relative-caret-position="289">
           <caret line="17" column="152" lean-forward="false" selection-start-line="17" selection-start-column="152" selection-end-line="17" selection-end-column="152" />
+>>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
           <folding />
         </state>
       </provider>

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e943418-00bd-4c4e-afb8-37af36b5719d" name="Default" comment="" />
+    <list default="true" id="c4d6f315-be78-43be-938b-44446f57e66d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../JohnsonDaniel_A1_1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JohnsonDaniel_A1_1/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../JohnsonDaniel_A1_1/out/production/JohnsonDaniel_A1_1/MadLib.class" afterPath="$PROJECT_DIR$/../JohnsonDaniel_A1_1/out/production/JohnsonDaniel_A1_1/MadLib.class" />
+      <change beforePath="$PROJECT_DIR$/../JohnsonDaniel_A1_1/src/MadLib.java" afterPath="$PROJECT_DIR$/../JohnsonDaniel_A1_1/src/MadLib.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/JohnsonDaniel_A1_2/Binary_To_Decimal.class" afterPath="$PROJECT_DIR$/out/production/JohnsonDaniel_A1_2/Binary_To_Decimal.class" />
+      <change beforePath="$PROJECT_DIR$/src/Binary_To_Decimal.java" afterPath="$PROJECT_DIR$/src/Binary_To_Decimal.java" />
+      <change beforePath="$PROJECT_DIR$/../JohnsonDaniel_A1_3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JohnsonDaniel_A1_3/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../JohnsonDaniel_A1_3/out/production/JohnsonDaniel_A1_3/Turtle.class" afterPath="$PROJECT_DIR$/../JohnsonDaniel_A1_3/out/production/JohnsonDaniel_A1_3/Turtle.class" />
+      <change beforePath="$PROJECT_DIR$/../JohnsonDaniel_A1_3/src/Turtle.java" afterPath="$PROJECT_DIR$/../JohnsonDaniel_A1_3/src/Turtle.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,30 +21,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Binary_To_Decimal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="594">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-=======
-            <state relative-caret-position="289">
-              <caret line="17" column="152" lean-forward="false" selection-start-line="17" selection-start-column="152" selection-end-line="17" selection-end-column="152" />
->>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
-              <folding />
+            <state relative-caret-position="334">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1544#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -55,11 +58,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1776" />
+    <option name="y" value="-11" />
+    <option name="width" value="1522" />
+    <option name="height" value="1931" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -75,19 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="AndroidView" />
-      <pane id="Scope" />
-=======
-      <pane id="Scope" />
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-=======
-      <pane id="Scratches" />
->>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
->>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,25 +87,29 @@
               <item name="JohnsonDaniel_A1_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="JohnsonDaniel_A1_2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JohnsonDaniel_A1_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JohnsonDaniel_A1_2" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JohnsonDaniel_A1_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JohnsonDaniel_A1_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="Scratches" />
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
       <pane id="PackagesPane" />
->>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JohnsonDaniel_A1_3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JohnsonDaniel_A1_1" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,37 +238,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e943418-00bd-4c4e-afb8-37af36b5719d" name="Default" comment="" />
-      <created>1516969417464</created>
+      <changelist id="c4d6f315-be78-43be-938b-44446f57e66d" name="Default" comment="" />
+      <created>1517584524843</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1516969417464</updated>
-      <workItem from="1516969420116" duration="176000" />
-      <workItem from="1517341459989" duration="664000" />
-      <workItem from="1517379418830" duration="394000" />
-      <workItem from="1517379843501" duration="631000" />
-<<<<<<< HEAD
-      <workItem from="1517473411936" duration="16000" />
-=======
-      <workItem from="1517436959421" duration="4626000" />
-<<<<<<< HEAD
-      <workItem from="1517464876188" duration="30000" />
-=======
->>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
->>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
+      <updated>1517584524843</updated>
+      <workItem from="1517584526034" duration="78000" />
+      <workItem from="1517585234507" duration="275000" />
+      <workItem from="1517585679424" duration="22000" />
+      <workItem from="1517585808928" duration="23000" />
+      <workItem from="1517585888279" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="6521000" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="1881000" />
-=======
-    <option name="totallyTimeSpent" value="6491000" />
->>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
->>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
+    <option name="totallyTimeSpent" value="405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -285,8 +265,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -297,13 +277,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997879" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -323,11 +303,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#1544#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -337,41 +349,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Binary_To_Decimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="594">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-=======
->>>>>>> 1aecd44b747ea71c4be7be5bac9ac75e21cc49bd
-        <state relative-caret-position="289">
-          <caret line="17" column="152" lean-forward="false" selection-start-line="17" selection-start-column="152" selection-end-line="17" selection-end-column="152" />
->>>>>>> ce0316eec482d5cfcf6bdd2a8ae5ac3975f1df94
-          <folding />
+        <state relative-caret-position="334">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1544#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

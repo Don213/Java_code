@@ -1,3 +1,28 @@
+////////////////////////////////
+//
+// Daniel Johnson
+// Assignment 1.2
+// 2/1/2018
+//
+////////////////////////////////
+
+
+////////////////////////////////
+//
+// DESCRIPTION: This program translates a binary number into a integer
+//
+//
+// INPUTS: This takes in a 4 digit binary number from the user.
+//
+//
+// OUTPUTS: This program outputs an integer translated from a binary number.
+//
+////////////////////////////////
+
+
+
+
+
 import java.util.Scanner;
 
 
@@ -9,7 +34,7 @@ public class Binary_To_Decimal {
         //Creates new scanner object
         Scanner keyboard = new Scanner(System.in);
 
-        //asks for input of a four digit binary number that gets assigned to a string variable using the keyboard.next listener
+        //Asks for input of a four digit binary number that gets assigned to a string variable using the keyboard.next listener
         System.out.print("Please enter a 4 digit binary number: ");
         String binaryDigit  = keyboard.next();
         //

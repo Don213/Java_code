@@ -1,3 +1,26 @@
+////////////////////////////////
+//
+// Daniel Johnson
+// Assignment 1.3
+// 2/1/2018
+//
+////////////////////////////////
+
+
+////////////////////////////////
+//
+// DESCRIPTION: This program uses ovals, arcs, text, and a polygon to display/create a picture of a turtle talking.
+//
+//
+// INPUTS: There are no user inputs for this application.
+//
+//
+// OUTPUTS: This program displays a turtle to the screen
+//
+////////////////////////////////
+
+
+
 import javafx.application.Application;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.Scene;
@@ -102,39 +125,39 @@ public class Turtle extends Application {
         gc.strokeOval(112.5, 112.5, 175, 275);
 
         //Third Middle Circle
-        gc.fillOval(112.5, 162.5, 175, 175);
+        //gc.fillOval(112.5, 162.5, 175, 175);
         gc.strokeOval(112.5, 162.5, 175, 175);
         //
 
         //Second Vertical Oval
-        gc.fillArc(150, 162.5, 100, 175, 180, 360, ArcType.OPEN);
+        //gc.fillArc(150, 162.5, 100, 175, 180, 360, ArcType.OPEN);
         gc.strokeArc(150, 162.5, 100, 175, 180, 360, ArcType.OPEN);
         //
 
         //Second Horizontal Oval
-        gc.fillArc(112.5, 200, 175, 100, 180, 360, ArcType.OPEN);
+        //gc.fillArc(112.5, 200, 175, 100, 180, 360, ArcType.OPEN);
         gc.strokeArc(112.5, 200, 175, 100, 180, 360, ArcType.OPEN);
         //
 
         //Second Middle Circle
-        gc.fillOval(150, 200, 100, 100);
+        //gc.fillOval(150, 200, 100, 100);
         gc.strokeOval(150, 200, 100, 100);
         //
 
 
 
         //First Vertical Oval
-        gc.fillArc(175, 200, 50, 100, 180, 360, ArcType.OPEN);
+        //gc.fillArc(175, 200, 50, 100, 180, 360, ArcType.OPEN);
         gc.strokeArc(175, 200, 50, 100, 180, 360, ArcType.OPEN);
         //
 
         //First Horizontal Oval
-        gc.fillArc(150, 225, 100, 50, 90, 360, ArcType.OPEN);
+        //gc.fillArc(150, 225, 100, 50, 90, 360, ArcType.OPEN);
         gc.strokeArc(150, 225, 100, 50, 90, 360, ArcType.OPEN);
         //
 
         //Center Circle (First Circle)
-        gc.fillOval(175, 225, 50, 50);
+        //gc.fillOval(175, 225, 50, 50);
         gc.strokeOval(175, 225, 50, 50);
         //
 

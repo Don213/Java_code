@@ -10,19 +10,21 @@ import javafx.scene.text.Font;
 
 public class Turtle extends Application {
     public static void main(String[] args) {
-        launch(args);  // launch the JavaFX application and call the start method
+        launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Pane root = new Pane();                    // Create an empty pane
+        Pane root = new Pane();                    // Creates an empty pane
         Scene scene = new Scene(root);
 
         //Creates canvas
-        Canvas canvas = new Canvas(500, 500);
+        Canvas canvas = new Canvas(600, 500);
         GraphicsContext gc = canvas.getGraphicsContext2D();
 
 
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //Sets fill color to green
         gc.setFill(Color.GREEN);
 
@@ -95,6 +97,10 @@ public class Turtle extends Application {
 
         */
 
+        //Fourth Vertical Oval
+        //gc.fillOval(112.5, 162.5, 175, 175);
+        gc.strokeOval(112.5, 112.5, 175, 275);
+
         //Third Middle Circle
         gc.fillOval(112.5, 162.5, 175, 175);
         gc.strokeOval(112.5, 162.5, 175, 175);
@@ -133,13 +139,32 @@ public class Turtle extends Application {
         //
 
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
+
+        int moveOver = 330; //moves the box over because I did not want to add
+
+        ///////Creates a dialogue box for the turtle to speak
+        double[] xPnts = {30 + moveOver, 60 + moveOver, 60 + moveOver, 250 + moveOver, 250 + moveOver, 30 + moveOver};
+        double[] yPnts = {120, 100, 30, 30, 100, 120};
+
+        gc.strokePolygon(xPnts, yPnts, xPnts.length);
+        ///////
+
+        //////Creates text for the box made above
+        gc.setFill(Color.BLACK);
+        gc.setFont(Font.font("Times New Roman", 16));
+        gc.fillText("Am I pretty enough?!", 410, 55);
+        gc.fillText("Do I need more pretty?!", 410, 85);
+        //////
 
 
         root.getChildren().add(canvas);
         primaryStage.setTitle("A Very Pretty Turtle"); //Names Window
         primaryStage.setScene(scene);
-        primaryStage.setAlwaysOnTop(true); // make sure window is on top (foreground)
+        primaryStage.setAlwaysOnTop(true); // Makes window appear above everything else
         primaryStage.show();
     }
 }

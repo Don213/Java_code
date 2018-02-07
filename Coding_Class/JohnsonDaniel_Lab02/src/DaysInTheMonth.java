@@ -10,16 +10,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 import java.util.Scanner;
 
 
@@ -48,22 +38,29 @@ public class DaysInTheMonth {
                 if (answer == 'y') { days = 29; }
                 else{ days = 28;}
                 break;
-            case "january":
+            /*case "january":
             case "march":
             case "may":
             case "july":
             case "august":
-            case "October":
+            case "october":
             case "december":
                 days = 31;
-                break;
+                break;*/
             default:
-                days = -1;
-                System.out.println("I am sorry, but the month you entered is misspelled. Please restart the program and try again.");
+                if (month.equals("january") || month.equals("march") || month.equals("may") || month.equals("july") || month.equals("august") ||month.equals("october") || month.equals("december")) {
+                    days = 31;
 
+                    month = month.toUpperCase().charAt(0) + month.substring(1);
+                    System.out.println("There are " + days + " days in " + month + ".");
+                }
+                else {
+                    days = -1;
+                    System.out.println("I am sorry, but the month you entered is misspelled. Please restart the program and try again.");
+                }
         }
 
-        month = month.toUpperCase().charAt(0) + month.substring(1);
-        System.out.println("There are " + days + " days in " + month + ".");
+        //month = month.toUpperCase().charAt(0) + month.substring(1);
+        //System.out.println("There are " + days + " days in " + month + ".");
     }
 }

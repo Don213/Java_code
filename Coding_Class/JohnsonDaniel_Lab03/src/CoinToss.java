@@ -25,10 +25,8 @@ import java.util.*;
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-public class CoinToss
-{
-    public static void main(String[] args)
-    {
+public class CoinToss {
+    public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         String response;
         char tossResults;
@@ -39,9 +37,9 @@ public class CoinToss
         System.out.println("\n\nEnter either h for heads or t for tails");
         System.out.println("for eight coin tosses:\n");
 
-        while(headCount + tailCount < 8) {
+        while (headCount + tailCount < 8) {
 
-            switch (headCount+tailCount){
+            switch (headCount + tailCount) {
                 case 0:
                     System.out.print("First toss: ");
                     break;
@@ -73,21 +71,23 @@ public class CoinToss
             tossResults = response.charAt(0);
 
 
-            if (tossResults == 'h'){
-                headCount++;}
-            else if(tossResults == 't'){
-                tailCount++;}
-            else{System.out.println("There was unexpected input; please re-enter your answer");}
+            if (tossResults == 'h') {
+                headCount++;
+            } else if (tossResults == 't') {
+                tailCount++;
+            } else {
+                System.out.println("There was unexpected input; please re-enter your answer");
+            }
+        }
 
+            System.out.println("\nNumber of heads: " + headCount);
+            System.out.println("Number of tails: " + tailCount);
 
-        System.out.println("\nNumber of heads: " + headCount);
-        System.out.println("Number of tails: " + tailCount);
+            float percentHeads = ((float) headCount / 8) * 100;
+            System.out.println("Percent heads: " + percentHeads + '%');
 
-        float percentHeads = ((float)headCount / 8) * 100;
-        System.out.println("Percent heads: " + percentHeads + '%');
+            float percentTails = ((float) tailCount / 8) * 100;
+            System.out.println("Percent tails: " + percentTails + "%\n");
 
-        float percentTails = ((float)tailCount / 8) * 100;
-        System.out.println("Percent tails: " + percentTails + "%\n");
-
+        }
     }
-}

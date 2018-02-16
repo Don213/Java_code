@@ -2,8 +2,11 @@
 *.xml
 *.xml
 *.iml
+<<<<<<< HEAD
 Coding_Class/JohnsonDaniel_A1_1/.idea/workspace.xml
 Coding_Class/JohnsonDaniel_A1_3/.idea/workspace.xml
 Coding_Class/JohnsonDaniel_A1_1/.idea/workspace.xml
+=======
+>>>>>>> 60436b68221b96e3fe28cd7d21af88adf9ee3c3e
 *.xml
 *.xml

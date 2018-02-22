@@ -33,12 +33,18 @@ public class CoinToss {
         int headCount = 0, //Must initialize to 0 to ensure correct results
                 tailCount = 0;
 
+        int i = 0;
 
+        String dv = "n";
         System.out.println("\n\nEnter either h for heads or t for tails");
         System.out.println("for eight coin tosses:\n");
 
         while (headCount + tailCount < 8) {
 
+
+                System.out.println("Toss " + i + ":");
+
+            /*
             switch (headCount + tailCount) {
                 case 0:
                     System.out.print("First toss: ");
@@ -65,19 +71,25 @@ public class CoinToss {
                     System.out.print("Eighth toss: ");
                     break;
             }
+*/
+            do {
+                response = keyboard.nextLine();
+                tossResults = response.charAt(0);
 
 
-            response = keyboard.nextLine();
-            tossResults = response.charAt(0);
-
-
-            if (tossResults == 'h') {
-                headCount++;
-            } else if (tossResults == 't') {
-                tailCount++;
-            } else {
-                System.out.println("There was unexpected input; please re-enter your answer");
-            }
+                if (tossResults == 'h') {
+                    headCount++;
+                    i++;
+                    dv = "y";
+                } else if (tossResults == 't') {
+                    tailCount++;
+                    i++;
+                    dv = "y";
+                } else {
+                    System.out.println("There was unexpected input; please re-enter your answer");
+                    dv = "n";
+                }
+            }while(dv.equals("n"));
         }
 
             System.out.println("\nNumber of heads: " + headCount);

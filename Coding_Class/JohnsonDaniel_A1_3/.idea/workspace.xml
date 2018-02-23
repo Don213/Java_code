@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="449d5939-a110-46de-99ab-bd934394ef16" name="Default" comment="" />
+    <list default="true" id="449d5939-a110-46de-99ab-bd934394ef16" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../JohnsonDaniel_A3_1/src/MysteryDigits.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,10 +18,14 @@
         <entry file="file://$PROJECT_DIR$/src/Turtle.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+            <state relative-caret-position="2799">
+=======
+<<<<<<< HEAD
             <state relative-caret-position="876">
               <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
 =======
             <state relative-caret-position="1447">
+>>>>>>> 7f465d0bd6ee0999dc1131d2bcba78baaa649d01
               <caret line="180" column="53" lean-forward="false" selection-start-line="180" selection-start-column="53" selection-end-line="180" selection-end-column="53" />
 >>>>>>> 881d89cd0f3df919c11e938803bf3f6544a79693
               <folding>
@@ -82,11 +88,16 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+      <pane id="PackagesPane" />
+=======
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
 =======
+>>>>>>> 7f465d0bd6ee0999dc1131d2bcba78baaa649d01
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
 >>>>>>> 881d89cd0f3df919c11e938803bf3f6544a79693
       <pane id="ProjectPane">
@@ -101,17 +112,20 @@
         </subPane>
       </pane>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
       <pane id="Scope" />
 =======
       <pane id="PackagesPane" />
       <pane id="Scratches" />
 >>>>>>> 881d89cd0f3df919c11e938803bf3f6544a79693
+>>>>>>> 7f465d0bd6ee0999dc1131d2bcba78baaa649d01
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JohnsonDaniel_Lab03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JohnsonDaniel_A3_3" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,11 +267,18 @@
 =======
       <workItem from="1517987074520" duration="798000" />
       <workItem from="1518782237811" duration="355000" />
+<<<<<<< HEAD
+      <workItem from="1519293599018" duration="18000" />
+=======
 >>>>>>> 881d89cd0f3df919c11e938803bf3f6544a79693
+>>>>>>> 7f465d0bd6ee0999dc1131d2bcba78baaa649d01
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="1782000" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="800000" />
   </component>
@@ -265,6 +286,7 @@
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
 =======
     <option name="totallyTimeSpent" value="1764000" />
+>>>>>>> 7f465d0bd6ee0999dc1131d2bcba78baaa649d01
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -278,8 +300,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 7f465d0bd6ee0999dc1131d2bcba78baaa649d01
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -290,8 +317,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -348,10 +375,25 @@
     <entry file="file://$PROJECT_DIR$/src/Turtle.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5247#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Turtle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2799">
+=======
+<<<<<<< HEAD
         <state relative-caret-position="876">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
 =======
         <state relative-caret-position="1447">
+>>>>>>> 7f465d0bd6ee0999dc1131d2bcba78baaa649d01
           <caret line="180" column="53" lean-forward="false" selection-start-line="180" selection-start-column="53" selection-end-line="180" selection-end-column="53" />
 >>>>>>> 881d89cd0f3df919c11e938803bf3f6544a79693
           <folding>

@@ -6,7 +6,6 @@ import java.util.Random;
 
 
 
-
 public class InfiniteLoopThing {
 
     public static void main(String[] args){
@@ -20,8 +19,9 @@ public class InfiniteLoopThing {
 
         int heads = 0;
         int tails = 0;
+        int i = 0;
 
-        for(int i = 0; i < 500; i++) {
+        while(i >= 0){
             String randomHT = Integer.toString(random.nextInt(2));
             //Generates a random number from 0-2. includes 0 and 2. Does not go up to 3. Adds 1 to get up to 3.
             //The integer is also converted to string to make the switch statement comparison below easier.
@@ -37,10 +37,11 @@ public class InfiniteLoopThing {
             }
 
             if (compAnswer.equals("h")) {
-                heads++;
+                System.out.println("The answer is heads; " + "There are currently " + heads++ +" Tosses");
             } else {
-                tails++;
+                System.out.println("The answer is tail; " + "There are currently " + tails++ + " Tosses");
             }
+            i++;
 
         }
 

@@ -1,6 +1,34 @@
+////////////////////////////////
+//
+// Daniel Johnson
+// Assignment 4.1
+// 3/1/2018
+//
+////////////////////////////////
+
+
+////////////////////////////////
+//
+// DESCRIPTION: This program determines the day of the week for the date that you enter.
+//
+//
+// INPUTS: This program takes a year, month, and day as input as integers.
+//
+//
+// OUTPUTS: This program outputs the day of the week for the date that you input.
+//
+//
+//
+////////////////////////////////
+
+
+
+
+
+
 public class DayWeekCalc {
 
-    public static boolean isLeapYear(int year) {
+    public static boolean isLeapYear(int year) {//a method for determining if the year is a leap year
 
         if ((year % 4 == 0) || ((year % 4 == 0) && (year % 100 != 0))) {
             return true;
@@ -11,46 +39,50 @@ public class DayWeekCalc {
     }
 
 
-    public static int getCenturyValue(int year) {
+    public static int getCenturyValue(int year) {//a method for determining the century value for later
 
 
-        String newYear = Integer.toString(year);
+        String newYear = Integer.toString(year);//converts to string to make a substring later
 
-        String ftd = newYear.substring(0, 2);
+        String ftd = newYear.substring(0, 2);//pulls a substring
 
-        int ftdInt = Integer.parseInt(ftd);
-
-
-        int finalValue = ((3 - (ftdInt % 4)) * 2);
+        int ftdInt = Integer.parseInt(ftd);//turns substring back into an integer
 
 
-        return finalValue;
+        int finalValue = ((3 - (ftdInt % 4)) * 2);//determines the century value
+
+
+        return finalValue;//returns century value
     }
 
 
     public static int getYearValue(int year) {
 
 
-        String newYear = Integer.toString(year);
+        String newYear = Integer.toString(year);//converts to string to make a substring later
 
-        String ftd = newYear.substring(2, 4);
+        String ftd = newYear.substring(2, 4);//pulls a substring
 
-        int ftdInt = Integer.parseInt(ftd);
+        int ftdInt = Integer.parseInt(ftd);//turns substring back into an integer
 
+
+        ////determines year value
         int ftdDivision = ftdInt / 4;
-
         int finalValue = ftdInt + ftdDivision;
+        ////determines year value
 
-        return finalValue;
+
+
+        return finalValue;//returns year value
     }
 
 
     public static int getMonthValue(int month, int year) {
 
-        int finalValue = 0;
+        int finalValue = 0;//initializes finalValue
 
 
-        if (isLeapYear(year)) {
+        if (isLeapYear(year)) {//a switch statement that gives values for each month value if it is a leap year
 
             switch (month) {
                 case 1:
@@ -92,7 +124,7 @@ public class DayWeekCalc {
             }
         } else {
 
-            switch (month) {
+            switch (month) {//a switch statement that gives values for each month value if it is not a leap year
                 case 1:
                     finalValue = 0;
                     break;
@@ -134,22 +166,22 @@ public class DayWeekCalc {
         }
 
 
-        return finalValue;
+        return finalValue; //returns month value
     }
 
 
-    public static String getDay(int year, int month, int day){
+    public static String getDay(int year, int month, int day){//a method to determine the day of the month by using the other previous methods
 
-        int centuryV = getCenturyValue(year);
-        int yearV =getYearValue(year);
-        int monthV = getMonthValue(month, year);
+        int centuryV = getCenturyValue(year);//returns century value and assigns it to a variable
+        int yearV =getYearValue(year);//returns year value and assigns it to a variable
+        int monthV = getMonthValue(month, year);//returns month value and assigns it to a variable
 
 
-        int finalValue = (day + centuryV + yearV + monthV)%7;
+        int finalValue = (day + centuryV + yearV + monthV)%7;//calculates value for the day of the week
 
-        String finalMonthCalc = "";
+        String finalMonthCalc = "";//initializes finalMonthCalc
 
-        switch (finalValue) {
+        switch (finalValue) {//determines the day of the week using all of the previous methods
             case 0:
                 finalMonthCalc = "Sunday";
                 break;
@@ -175,6 +207,6 @@ public class DayWeekCalc {
         }
 
 
-        return finalMonthCalc;
+        return finalMonthCalc;//returns the day of the week.
     }
 }

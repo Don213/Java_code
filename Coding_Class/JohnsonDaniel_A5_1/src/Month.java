@@ -1,4 +1,34 @@
+////////////////////////////////
+//
+// Daniel Johnson
+// Assignment 5.1
+// 3/8/2018
+//
+////////////////////////////////
+
+
+////////////////////////////////
+//
+// DESCRIPTION: This class file contains 3 constructors (takes no arguments, an int argument, and a string argument), a method that
+// sets the value of month, a method that returns the value of month, and method that returns a string value that represents a month
+// depending on a variable called month, a method that returns a new object that contains the value of the next month, and a method that
+// returns a string representation of the current object.
+//
+//
+//
+// INPUTS: There is no user input.
+//
+//
+// OUTPUTS: This class file has no output but stores methods that are used in the next file.
+//
+//
+//
+////////////////////////////////
+
+
+
 public class Month {
+
     private int month;
 
     public Month() {//a default constructor that sets the month value equal to 4
@@ -113,8 +143,10 @@ public class Month {
             Month nextMonth = new Month(1); //makes sure december becomes january
             return nextMonth;
         }
+    }
 
-
+    public String monthToString(){//this outputs a string representation of the current object
+        return "Month: " + this.month;
     }
 
 }

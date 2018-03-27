@@ -1,4 +1,30 @@
-import javax.print.attribute.standard.NumberUp;
+////////////////////////////////
+//
+// Daniel Johnson
+// Assignment 6
+// 3/20/2018
+//
+////////////////////////////////
+
+
+////////////////////////////////
+//
+// DESCRIPTION:
+//
+//
+// INPUTS:
+//
+//
+// OUTPUTS:
+//
+//
+//
+////////////////////////////////
+
+
+
+
+
 import java.util.Scanner;
 
 public class HockeyTeamRoster {
@@ -11,6 +37,43 @@ public class HockeyTeamRoster {
     private int[] jerseyNumberA = new int[NUM_JERSEY];
 
     private int[] ratingA = new int[NUM_JERSEY];
+
+
+
+
+
+    public HockeyTeamRoster(){
+
+        Scanner keyboard = new Scanner(System.in);
+
+
+        System.out.println("Please enter the information for the next five players.");
+
+        for (int i = 0; i < jerseyNumberA.length; i++) {
+
+            System.out.print("Please enter the player's jersey number (0-99): ");
+
+            jerseyNumberA[i] = keyboard.nextInt();
+
+            System.out.println();
+
+            System.out.print("Please enter player " + jerseyNumberA[i] + "'s rating (1-9): ");
+
+            ratingA[i] = keyboard.nextInt();
+
+            System.out.println();
+        }
+    }
+
+    /*****************************************************************
+     *
+     * Name: HockeyTeamRoster
+     * Description: This is a constructor method that sets up a new HockeyTeamRoster object.
+     * Inputs: This takes integer input for each jersey number and rating for the players.
+     * Returned value: Does not return a value
+     * Preconditions: None
+     *
+     *****************************************************************/
 
 
 
@@ -34,54 +97,16 @@ public class HockeyTeamRoster {
         return tempVariable;
     }
 
+    /*****************************************************************
+     *
+     * Name: findInArray
+     * Description: This returns where the number is in the index
+     * Inputs: This takes an array and a number to find as input
+     * Returned value: This returns the index of where a number given is.
+     * Preconditions: None
+     *
+     *****************************************************************/
 
-
-
-    public HockeyTeamRoster(){
-
-        Scanner keyboard = new Scanner(System.in);
-
-
-        System.out.println("Please enter the information for the next five players.");
-
-        for (int i = 0; i < jerseyNumberA.length; i++) {
-
-            System.out.print("Please enter the player's jersey number: ");
-
-            jerseyNumberA[i] = keyboard.nextInt();
-
-            System.out.println();
-
-            System.out.print("Please enter player " + jerseyNumberA[i] + "'s rating: ");
-
-            ratingA[i] = keyboard.nextInt();
-
-            System.out.println();
-            }
-    }
-
-
-    /*
-    public int[] getJerseyNumbers() {
-        return jerseyNumberA;
-    }
-
-    public int[] getRatingA() {
-        return ratingA;
-    }
-
-    public void printJerseyNumbers(){
-        for (int i = 0; i < jerseyNumberA.length; i ++) {
-            System.out.println(jerseyNumberA[i]);
-        }
-    }
-
-    public void printRatingNumbers() {
-        for (int i = 0; i < ratingA.length; i++) {
-            System.out.println(ratingA[i]);
-        }
-    }
-    */
 
 
     public void printRoster(){
@@ -92,6 +117,16 @@ public class HockeyTeamRoster {
 
             this.menu();
     }
+
+    /*****************************************************************
+     *
+     * Name: printRoster
+     * Description: This method prints the team roster
+     * Inputs: This does not take input
+     * Returned value: Does not return a value
+     * Preconditions: None
+     *
+     *****************************************************************/
 
     public void updatePlayerRating(){
         Scanner keyboard = new Scanner(System.in);
@@ -115,6 +150,17 @@ public class HockeyTeamRoster {
         this.menu();
     }
 
+
+    /*****************************************************************
+     *
+     * Name: updatePlayerRating
+     * Description: This method updates a player's rating from rating array
+     * Inputs: This takes a jersey number to find the array index and a new rating to set the rating after finding where the old one was.
+     * Returned value: Does not return a value
+     * Preconditions: None
+     *
+     *****************************************************************/
+
     public void outputAboveRating(){
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter the rating you want the list of players to be above");
@@ -130,6 +176,18 @@ public class HockeyTeamRoster {
         }
         this.menu();
     }
+
+
+
+    /*****************************************************************
+     *
+     * Name: outputAboveRating.
+     * Description: This method outputs players with a rating above a certain rating.
+     * Inputs: This takes integer input to determine if ratings are above the number.
+     * Returned value: This returns a list of players that are higher than the input number.
+     * Preconditions: None
+     *
+     *****************************************************************/
 
     public void replacePlayer(){
         Scanner keyboard = new Scanner(System.in);
@@ -159,6 +217,16 @@ public class HockeyTeamRoster {
 
     }
 
+
+    /*****************************************************************
+     *
+     * Name: replacePlayer
+     * Description: This method replaces the jersey number and rating for a certain player
+     * Inputs: This takes integer input of a jersey number to determine which player must be replaced
+     * Returned value: Does not return a value
+     * Preconditions: None
+     *
+     *****************************************************************/
 
 
 
@@ -206,6 +274,17 @@ public class HockeyTeamRoster {
 
 
     }
+
+
+    /*****************************************************************
+     *
+     * Name: menu
+     * Description: This method prints a menu for the user to navigate through.
+     * Inputs: This takes a string letter as input to choose one of the options on the menu
+     * Returned value: This does not return values but can output various items depending on the chosen option in the menu
+     * Preconditions: None
+     *
+     *****************************************************************/
 
 
 

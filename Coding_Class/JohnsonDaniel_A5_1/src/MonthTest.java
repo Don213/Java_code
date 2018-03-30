@@ -1,3 +1,31 @@
+////////////////////////////////
+//
+// Daniel Johnson
+// Assignment 5.1
+// 3/8/2018
+//
+////////////////////////////////
+
+
+////////////////////////////////
+//
+// DESCRIPTION: This tests all of the constructors and methods in the last file
+//
+//
+//
+// INPUTS: There is no user input.
+//
+//
+// OUTPUTS: This outputs the results of the tests done to prove that the methods work.
+//
+//
+//
+////////////////////////////////
+
+
+
+
+
 public class MonthTest {
 
     public static void main(String[] args){
@@ -43,5 +71,10 @@ public class MonthTest {
         System.out.println("This is the getMonthInt method test for testMonth: " + testMonth.getMonthInt() + " is equal to 5");
         System.out.println("This is the getMonthString method test for testMonth: " + testMonth.getMonthString() + " is the same as may");
         System.out.println("April is before " + testMonth.getMonthString());//tests the testMonth() method
+
+
+        System.out.println();
+
+        System.out.println(testMonth.monthToString());// tests the monthToString() method
     }
 }

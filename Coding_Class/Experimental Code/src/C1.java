@@ -1,11 +1,18 @@
 public class C1
 {
-    public int var1;
-    public String var2;
-    public void Method1()
-    {
-        var1 = 5;
-        var2 = "How much longer is this test?";
-        C2.var3 = "About halfway there...";
+
+    private String name = "";
+
+    public C1(String name){
+
+        this.name = name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+
+        return this.name;
     }
 }

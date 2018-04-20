@@ -57,7 +57,7 @@ public class Popularity {
                 split1 = line.split(" ");
 
 
-                if(split1[1].equals("Dal")) {
+                if(split1[1].equals("Dan")) {
                     System.out.println("Daniel is rank " + split1[0] + " an occurs " + split1[2] + " times.");
 
                     tempValue = 24;
